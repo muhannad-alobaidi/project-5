@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Fazer-Heading';
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/FazerHeadline-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Fazer-Text';
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/FazerText-Light.woff) format('woff');
+}
+@font-face {
+    font-family: 'Fazer-Text-bold';
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/FazerText-Bold.woff) format('woff');
+}

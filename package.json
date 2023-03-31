@@ -1,0 +1,25 @@
+{
+  "name": "sek-campaign-template-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-lorem-ipsum": "^1.4.10",
+    "smoothscroll-polyfill": "^0.4.4"
+  },
+  "devDependencies": {
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0",
+    "eslint-plugin-react": "^7.31.8",
+    "prop-types": "^15.8.1",
+    "sass": "^1.54.9"
+  }
+}

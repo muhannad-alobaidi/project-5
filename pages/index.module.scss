@@ -1,0 +1,172 @@
+@import "../styles/fonts.css";
+
+
+.index {
+  background-color: #fff;
+  padding: 0 0;
+  .content {
+    padding: 0 ;
+
+    .modualsSection1{
+      max-width: 1380px;
+      margin: auto;
+      box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+      top: -80px;
+
+     
+   }
+    .modualsSection2{
+      max-width: 1380px;
+      margin: auto;
+
+      img {
+        width: 100%;
+      }
+
+      .quoteeImage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+          width: 75%;
+          height: 90%;
+          border-radius: 20%;
+        }
+       
+
+      }
+
+      .textAlign{
+        text-align: center;
+        padding-top: 2em;
+      }
+
+     
+      
+   }
+    .modualsSection3{
+      max-width: 1380px;
+      margin: auto;
+      box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+      margin-bottom: 60px;
+      .headImage{
+        max-height: 60vh;
+      }
+      img {
+        width: 100%;
+      }
+      
+   }
+    
+  }
+
+
+
+  .listContainer{
+    display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+
+    ul{
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: start;
+
+      li{
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 30px;
+        min-height: 145px;
+
+
+        span{
+          display: flex;
+          align-items: center;
+          font-size: 3.5rem;
+          font-family: 'Fazer-Heading';
+          min-width: 55px;
+        }
+
+        p{
+          display: flex;
+          align-items: center;
+          padding-left: 40px;
+         
+        }
+      }
+    }
+  }
+
+  
+}
+
+
+@media (max-width: 1024px)  {
+  
+  .index{
+    .content{
+      padding: 0;
+    }
+    .modualsSection1{
+      top: 0 !important;
+    }
+    .listContainer{
+      ul{
+        li{
+          min-height: 230px;
+        }
+      }
+    }
+    
+   
+  }
+
+}
+
+
+@media (max-width: 767px)  {
+  .index{
+    .content{
+
+      .modualsSection2{
+        .textAlign{
+          padding-top: 0;
+        }
+      }
+    }
+    .listContainer{
+      gap: 0;
+      grid-template-columns: 1fr;
+
+      ul{
+        
+          
+        
+
+        li{
+
+          min-height: 50px;
+
+          p{
+            
+            padding-left: 10px;
+           
+          }
+  
+        }
+
+        li:first-child{
+          padding-top: 0 !important;
+        }
+        
+      }
+
+      
+    }
+  }
+}
+

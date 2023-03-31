@@ -1,0 +1,71 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  /* 1rem */
+  font-size: 16px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #fff;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  position: relative;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: .5em 0;
+  padding: 0;
+  font-family: 'Fazer-Heading';
+  font-weight: 400;
+  ;
+  &:first-child {
+    margin: 0 0 .5em;
+  }
+}
+
+p{
+  font-family: 'Fazer-Text';
+  font-size: 1.25rem;
+  line-height: 1.62rem;
+}
+a{
+  font-family: 'Fazer-Text';
+  font-size: 1.25rem;
+  line-height: 1.62rem;
+}
+
+b{
+  font-family: 'Fazer-Text-bold';
+}
+
+#__next {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+@media (max-width: 767px) {
+
+  p{
+    font-size: 1.05rem;
+    line-height: 1.27rem;
+  }
+
+  a{
+    font-size: 1.05rem;
+    line-height: 1.27rem;
+  }
+  
+}
